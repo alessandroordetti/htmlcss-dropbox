@@ -121,12 +121,20 @@ section.offers, section.partner-finding, section.operations, section.faqs {
     margin: 0 auto;
 }
 
-section.offers, section.operations {
+section.offers {
     height: 1500px;
+}
+
+section.operations {
+    height: 1250px;
 }
 
 section.partner-finding, section.faqs {
     height: 650px;
+}
+
+section.partner-finding {
+    margin-bottom: 100px;
 }
 
 .design-it {
@@ -243,6 +251,32 @@ ul {
     color: black;
     font-size: 18px;
 }
+
+.operations > h1 {
+    height: 5%;
+    font-size: 50px;
+}
+
+#cards-container {
+    height: 95%;
+}
+
+.card {
+    width: calc(100% / 3);
+    padding: 30px 0;
+}
+
+.first-card {
+    width: 100%;
+}
+
+.first-card > img {
+    height: 300px;
+}
+
+
+
+
 
 
 
