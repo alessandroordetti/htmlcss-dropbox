@@ -201,7 +201,7 @@ ul {
     list-style-type: none;
 }
 
-ul li:before {
+.offers ul li:before {
     content: '✓';
 }
 
@@ -243,6 +243,7 @@ ul li:before {
     color: black;
     font-size: 18px;
 }
+
 
 
 
