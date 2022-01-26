@@ -66,11 +66,14 @@ button {
 }
 
 /* altezza della sezione si ripete nella sezione domande frequenti */
-.jumbotron {
+.jumbotron, .design-it {
     width: 100%;
-    height: 800px;
     min-width: 1250px;
     background-color: rgb(180, 208, 231);
+}
+
+.jumbotron {
+    height: 800px;
 }
 
 .jumbo-container {
@@ -106,9 +109,32 @@ button {
 }
 
 /* Si ripete 2 volte prima dell'ultima sezione e del footer*/
-section.offers {
+section.offers, section.partner-finding, section.operations, section.faqs {
     width: 70%;
-    height: 1000px;
     margin: 0 auto;
     background-color: blue;
+    color:white
+}
+
+section.offers, section.operations {
+    height: 1000px;
+}
+
+section.partner-finding, section.faqs {
+    height: 650px;
+    background-color: chocolate;
+}
+
+.design-it {
+    height: 1000px;
+}
+
+.section-faqs {
+    background-color: red;
+}
+
+#about-us {
+    height: 450px;
+    background-color: black;
+    color: white;
 }
