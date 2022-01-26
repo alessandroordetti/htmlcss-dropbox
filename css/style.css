@@ -11,7 +11,8 @@
 }
 
 body {
-    font-family: sans-serif
+    font-family: sans-serif;
+    color: black;
 }
 
 .float-left {
@@ -57,8 +58,13 @@ li > a {
 button {
     background-color: rgb(0, 97, 255);
     color: white;
+    font-weight: bold;
     padding: 10px 12px;
     margin-left: 10px;
+}
+
+#try-button {
+    margin-left: 0;
 }
 
 .right-nav button {
@@ -74,6 +80,7 @@ button {
 
 .jumbotron {
     height: 800px;
+    margin-bottom: 230px;
 }
 
 .jumbo-container {
@@ -112,12 +119,11 @@ button {
 section.offers, section.partner-finding, section.operations, section.faqs {
     width: 70%;
     margin: 0 auto;
-    background-color: blue;
-    color:white
+    background-color: red;
 }
 
 section.offers, section.operations {
-    height: 1000px;
+    height: 1500px;
 }
 
 section.partner-finding, section.faqs {
@@ -138,3 +144,30 @@ section.partner-finding, section.faqs {
     background-color: black;
     color: white;
 }
+
+.offers header h1 {
+    font-size: 50px;
+}
+
+#radio-buttons {
+    padding-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.col {
+    width: 33%;
+    height: 1000px;
+    background-color: teal;
+}
+
+.single-profile {
+    height: 5%;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
