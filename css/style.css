@@ -89,7 +89,7 @@ button {
 
 .jumbo-container {
     width: 85%;
-    margin: 0 45px;
+    margin: 0 auto;
     padding-top: 80px;
 }
 
@@ -127,7 +127,7 @@ button {
 }
 
 /* Si ripete 2 volte prima dell'ultima sezione e del footer*/
-section.offers, section.partner-finding, section.operations, section.faqs {
+section.offers, section.partner-finding, section.operations, section.faqs, section.design-it  #about-brands, section.design-it .try-dropbox  {
     width: 70%;
     margin: 0 auto;
 }
@@ -149,7 +149,18 @@ section.partner-finding {
 }
 
 .design-it {
-    height: 1000px;
+    height: 1500px;
+}
+
+#about-brands {
+    height: 20%
+}
+.dropbox-members {
+    height: 60%;
+}
+
+.try-dropbox {
+    height: 20%;
 }
 
 .section-faqs {
@@ -231,7 +242,6 @@ ul {
     margin-bottom: 20px;
 }
 
-
 .partner-img {
     width: 55%;
     margin-right: 45px;
@@ -287,6 +297,7 @@ ul {
 
 .faqs > h1 {
     padding-bottom: 70px;
+    font-size: 40px
 }
 
 .questions {
@@ -327,9 +338,6 @@ ul {
     line-height: 5rem;
 }
 
-
-
-
 .footer-first-col {
     width: calc(100% / 5);
 }
@@ -342,6 +350,11 @@ ul {
 #about-us li {
     margin: 18px 0;
     font-size: 18px;
+}
+
+#about-us a{
+    text-decoration: none;
+    color: white;
 }
 
 
