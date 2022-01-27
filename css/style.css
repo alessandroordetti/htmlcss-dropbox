@@ -149,7 +149,7 @@ section.partner-finding {
 }
 
 .design-it {
-    height: 1500px;
+    height: 800px;
 }
 
 #about-brands {
@@ -157,10 +157,53 @@ section.partner-finding {
 }
 .dropbox-members {
     height: 60%;
+    margin-bottom: 35px;
 }
 
 .try-dropbox {
     height: 20%;
+}
+
+.square-brands {
+    width: 480px;
+    height: 100%;
+}
+
+.design-it-review {
+    width: calc(100% - 960px);
+    height: 100%;
+}
+
+.first-partner {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(97, 8, 43);
+    position: relative;
+}
+
+.first-partner img {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.central-design-wrapper {
+    padding: 40px 25px 0;
+}
+
+#designit-logo {
+    width: 25%;
+}
+
+#designit-logo > img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.central-design-wrapper p {
+    margin-bottom: 40px;
 }
 
 .section-faqs {
@@ -258,7 +301,7 @@ ul {
     line-height: 2rem;
 }
 
-.partner-description > h1, p {
+.partner-description > h1, .partner-description > p {
     margin-bottom: 30px;
 }
 
