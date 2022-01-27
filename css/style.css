@@ -42,8 +42,12 @@ body {
     vertical-align: middle;
 }
 
+.left-nav {
+    position: relative;
+}
+
 .left-nav ul>li, .right-nav ul>li {
-    display: inline;
+    display: inline-block;
 }
 
 li > a {
@@ -211,6 +215,8 @@ ul {
 
 .offers ul li:before {
     content: '✓';
+    color: rgb(0, 97, 255);
+    font-size: 35px;
 }
 
 #enterprise button {
@@ -274,9 +280,22 @@ ul {
     height: 300px;
 }
 
+.faqs {
+    padding-top: 80px;
+}
 
+.faqs > h1 {
+    padding-bottom: 70px;
+}
 
+.questions {
+    border-top: 1px solid black;
+    line-height: 3.5rem;
+}
 
+.questions:last-child {
+    border-bottom: 1px solid black;
+}
 
 
 
