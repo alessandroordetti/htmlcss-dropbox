@@ -50,7 +50,7 @@ body {
     display: inline-block;
 }
 
-li > a {
+header li > a {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -89,7 +89,14 @@ button {
 
 .jumbo-container {
     width: 85%;
-    margin: 0 auto 0;
+    margin: 0 45px;
+    padding-top: 80px;
+}
+
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+    padding-left: 100px;
     padding-top: 80px;
 }
 
@@ -147,12 +154,6 @@ section.partner-finding {
 
 .section-faqs {
     background-color: red;
-}
-
-#about-us {
-    height: 450px;
-    background-color: black;
-    color: white;
 }
 
 .offers header h1 {
@@ -296,6 +297,54 @@ ul {
 .questions:last-child {
     border-bottom: 1px solid black;
 }
+
+#about-us {
+    width: 100%;
+    height: 650px;
+    color: white;
+    background-color: black;
+}
+
+.footer-container-first-row, #language-switch {
+    width: 100%;
+    padding-left: 170px;
+    padding-right: 100px;
+}
+
+.footer-container-first-row {
+    height: 65%;
+    padding-top: 120px;
+}
+
+#language-switch {
+    height: 35%;
+    padding-top: 50px;
+}
+
+#language-switch-container {
+    width: 100px;
+    border-top: 2px solid gray;
+    line-height: 5rem;
+}
+
+
+
+
+.footer-first-col {
+    width: calc(100% / 5);
+}
+
+#about-us h3 {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+#about-us li {
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+
 
 
 
