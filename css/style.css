@@ -248,6 +248,7 @@ section.partner-finding {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .central-design-wrapper {
@@ -315,7 +316,6 @@ section.offers {
     margin-top: 40px;
     line-height: 2.4rem;
     position: relative;
-    
 }
 
 .single-profile {
